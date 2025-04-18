@@ -160,6 +160,7 @@
   @media (max-width: 768px) {
     .burger {
       display: block;
+      
     }
   
     .Nav {
@@ -170,6 +171,7 @@
   
     .Nav.show {
       display: flex;
+      
     }
   
     .Nav ul {

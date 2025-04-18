@@ -83,13 +83,13 @@ const Product=({product , setproduct , detail, view,close,setclose,addtocart})=>
                                             <img src={value.Img} alt={value.Title} />
 
                                             <div className="icon">
-                                                {
+                                                {/* {
                                                     isAuthenticated ?  <li onClick={()=>addtocart(value)}> <BiSolidCartAdd /> </li>
                                                     :
                                                     <li onClick={()=>loginWithRedirect()}> <BiSolidCartAdd /> </li>
-                                                }
+                                                } */}
                                               
-                                                
+                                              <li onClick={()=>addtocart(value)}> <BiSolidCartAdd /> </li>
                                                 
 
                                             </div>

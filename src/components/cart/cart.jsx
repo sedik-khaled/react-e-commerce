@@ -99,7 +99,7 @@ const Cart=({cart,setcart})=> {
                         <h2 className="total-price">Total Price: ${total}</h2>
                     </div>
                     <div>
-                         <button className="checkout">CheckOut</button>
+                    <Link to="/product" className="checkout">Shop Now</Link>
                     </div>
                     
                    

@@ -34,7 +34,7 @@ const Nav=({searchbtn})=>{
                 </div>
                 
                 <div className="icon">
-                    {
+                    {/* {
                         isAuthenticated&&
                         (
                              <div className="account">
@@ -44,7 +44,7 @@ const Nav=({searchbtn})=>{
                         <p>hello, {user.name}</p>
                     </div>
                         )
-                    }
+                    } */}
                    
                     <div className="second-icons">
                         
@@ -114,7 +114,7 @@ const Nav=({searchbtn})=>{
       </div>
 
       <div className="auth">
-        {
+        {/* {
           isAuthenticated ? (
             <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })}>
               <BiLogOut />
@@ -124,7 +124,7 @@ const Nav=({searchbtn})=>{
               <BiLogIn />
             </button>
           )
-        }
+        } */}
       </div>
     </div>
         </div>

@@ -160,13 +160,14 @@ const Home=({detail, view,close,setclose,addtocart})=>{
                                             <img src={prod.Img} alt={prod.Title} />
 
                                             <div className="icon">
-                                                {
+                                                {/* {
                                                     isAuthenticated?
                                                     <li onClick={()=>addtocart(prod)}><BiSolidCartAdd /></li>
                                                     :
                                                     <li onClick={()=>loginWithRedirect()}><BiSolidCartAdd /></li>
 
-                                                }
+                                                } */}
+                                                <li onClick={()=>addtocart(prod)}><BiSolidCartAdd /></li>
                                                 
                                                
                                                
