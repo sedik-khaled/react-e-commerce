@@ -42,7 +42,8 @@
     outline: none;
     background: none;
     border-bottom: 1px solid #010f1c;
-    width: 350px;
+    width: 100%;
+    text-align: center;
     margin-top: 20px;
     align-items: center;
 }
